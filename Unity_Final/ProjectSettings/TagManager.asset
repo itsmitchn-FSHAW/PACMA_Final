@@ -10,6 +10,7 @@ TagManager:
   - enemy
   - Necklace
   - throwable_Obj
+  - Ground
   layers:
   - Default
   - TransparentFX
