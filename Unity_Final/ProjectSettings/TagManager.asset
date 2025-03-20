@@ -11,6 +11,7 @@ TagManager:
   - Necklace
   - throwable_Obj
   - Ground
+  - PowerManager
   layers:
   - Default
   - TransparentFX
