@@ -12,6 +12,7 @@ TagManager:
   - throwable_Obj
   - Ground
   - PowerManager
+  - changer
   layers:
   - Default
   - TransparentFX
