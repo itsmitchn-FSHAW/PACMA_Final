@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: CT_ComboDoor
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-150.0,"y":5.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-516.0,"y":-143.0},"guid":"8c54f3bf-67e1-40f3-8531-a710d749f121","$version":"A","$type":"Unity.VisualScripting.FixedUpdate","$id":"9"},{"defaultValues":{},"position":{"x":-92.0,"y":-109.0},"guid":"94e12190-6f15-4d68-959a-14e1428d65e4","$version":"A","$type":"Unity.VisualScripting.If","$id":"11"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"CT_ComboDoorCheck","$type":"System.String"}},"position":{"x":-629.0,"y":-7.0},"guid":"bcab1467-7947-4079-8a7c-d53edfc01838","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"13"},{"numeric":true,"defaultValues":{"b":{"$content":7.0,"$type":"System.Single"}},"position":{"x":-311.0,"y":24.0},"guid":"72bd669e-ed67-42cf-9185-e3e0bd91d807","$version":"A","$type":"Unity.VisualScripting.GreaterOrEqual","$id":"15"},{"chainable":false,"parameterNames":["obj"],"member":{"name":"Destroy","parameterTypes":["UnityEngine.Object"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%obj":null},"position":{"x":228.0,"y":-141.0},"guid":"6b6116d6-7bb3-4e22-beda-f044577057f2","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"17"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Door","$type":"System.String"},"object":null},"position":{"x":-9.0,"y":64.0},"guid":"22de9369-0de2-4cf6-842c-7abc39efd6d7","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"21"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"511c86bd-ce51-4ff7-a146-5a5de0dfcc5d","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"17"},"destinationKey":"enter","guid":"bc0215cb-cc48-4572-ae1d-2340aec3c928","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"a","guid":"32f3cc58-5afc-4fda-8cc4-374e8f50cf75","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"comparison","destinationUnit":{"$ref":"11"},"destinationKey":"condition","guid":"1a2e028a-1e97-49a9-a799-7f9cc2f68b15","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"value","destinationUnit":{"$ref":"17"},"destinationKey":"%obj","guid":"228538ac-3366-4678-bc38-4de85c9cdc12","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
