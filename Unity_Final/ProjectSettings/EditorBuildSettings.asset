@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Anna/Anna's Level 1.unity
+    guid: 2703ac17279e07e42bad2c7ddefb0b6d
+  - enabled: 1
+    path: Assets/Conner/Conner Level 2.unity
+    guid: 9ee093e1cb8115e4794697379f528119
+  - enabled: 1
+    path: Assets/Adam/Adam's Level 3.unity
+    guid: 734d709a67ca60e45a96aa25af969aa7
+  - enabled: 1
+    path: Assets/Mitch/Mitch's Level 4.unity
+    guid: 584b7798151e30345b30f6d686cd7b39
+  - enabled: 1
+    path: Assets/Philip/Philip Level 5.unity
+    guid: 195bb4d3262807c429fad67e608319d9
   m_configObjects: {}
