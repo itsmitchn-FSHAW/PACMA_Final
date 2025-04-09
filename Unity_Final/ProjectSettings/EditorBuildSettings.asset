@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main_Menu.unity
+    guid: 2fc386bf76104544e89f6758636322da
+  - enabled: 1
     path: Assets/Anna/Anna's Level 1.unity
     guid: 2703ac17279e07e42bad2c7ddefb0b6d
   - enabled: 1
