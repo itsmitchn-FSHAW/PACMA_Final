@@ -15,6 +15,7 @@ TagManager:
   - changer
   - enemycounter
   - Box
+  - static
   layers:
   - Default
   - TransparentFX
