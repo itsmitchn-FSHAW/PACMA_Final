@@ -16,6 +16,7 @@ TagManager:
   - enemycounter
   - Box
   - static
+  - UI
   layers:
   - Default
   - TransparentFX
