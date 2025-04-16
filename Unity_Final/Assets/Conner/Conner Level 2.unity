@@ -2536,18 +2536,31 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Box","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Neck","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Box_Mesh","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"playerModel","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"movementDir","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 130438868675039212, guid: 9a7c6c8f85ed6e94d80da2b389e6e84b,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 130438868675039212, guid: 9a7c6c8f85ed6e94d80da2b389e6e84b,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[1]
       value: 
       objectReference: {fileID: 1281275655}
+    - target: {fileID: 130438868675039212, guid: 9a7c6c8f85ed6e94d80da2b389e6e84b,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 207786738}
+    - target: {fileID: 130438868675039212, guid: 9a7c6c8f85ed6e94d80da2b389e6e84b,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[3]
+      value: 
+      objectReference: {fileID: 7939104983035301281, guid: fe59bdae2a95c1c4faa8467aa99ac583,
+        type: 3}
     - target: {fileID: 130438868675039212, guid: 9a7c6c8f85ed6e94d80da2b389e6e84b,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[4]
@@ -2570,6 +2583,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[7]
       value: 
       objectReference: {fileID: 673111124}
+    - target: {fileID: 130438868675039212, guid: 9a7c6c8f85ed6e94d80da2b389e6e84b,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[8]
+      value: 
+      objectReference: {fileID: 1291933870}
     - target: {fileID: 1692750215835356366, guid: 9a7c6c8f85ed6e94d80da2b389e6e84b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3101,6 +3119,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8026839376134742991, guid: 3a0665d77adc7004092a008fcc39a0e7,
     type: 3}
   m_PrefabInstance: {fileID: 207635899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &207786738 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 849156550286571270, guid: 9a7c6c8f85ed6e94d80da2b389e6e84b,
+    type: 3}
+  m_PrefabInstance: {fileID: 151609454}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &212661811
 PrefabInstance:
@@ -9703,7 +9727,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b892303fdacb3d34f8edc24b59426cca, type: 2}
+      objectReference: {fileID: 2100000, guid: 99ea917f9de9b5a4aa01749763c1990e, type: 2}
     - target: {fileID: 919132149155446097, guid: fd6c00a8ddebe2c40b22aab6f1a8adc5,
         type: 3}
       propertyPath: m_Name
@@ -9712,7 +9736,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fd6c00a8ddebe2c40b22aab6f1a8adc5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 624049333}
   m_SourcePrefab: {fileID: 100100000, guid: fd6c00a8ddebe2c40b22aab6f1a8adc5, type: 3}
 --- !u!1 &624049332 stripped
 GameObject:
@@ -9720,6 +9748,27 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 624049331}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &624049333
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624049332}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2a77ed618a504fa46adfdf85a052b03d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &624811295
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17685,6 +17734,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1878313457}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1291933870 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 736244858478776240, guid: 9a7c6c8f85ed6e94d80da2b389e6e84b,
+    type: 3}
+  m_PrefabInstance: {fileID: 151609454}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1294178294
 GameObject:
   m_ObjectHideFlags: 0
@@ -17735,10 +17790,12 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Lock-Body","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Door","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"button_anim","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Animator,
+      UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 624049332}
     - {fileID: 1576973897}
+    - {fileID: 624049333}
 --- !u!65 &1294178297
 BoxCollider:
   m_ObjectHideFlags: 0
