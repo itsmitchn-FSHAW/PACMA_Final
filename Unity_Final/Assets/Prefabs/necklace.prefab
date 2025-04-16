@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4194919379494022926}
   - component: {fileID: -6737544541803998770}
   - component: {fileID: -8480832501706175974}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: necklace
   m_TagString: Necklace
   m_Icon: {fileID: 0}
@@ -158,7 +158,7 @@ GameObject:
   - component: {fileID: 6632228489239259145}
   - component: {fileID: 4506827884160427894}
   - component: {fileID: 5374991691581136053}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -265,6 +265,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: necklace
       objectReference: {fileID: 0}
+    - target: {fileID: 1342093055415406682, guid: ab346c4fc224cca4e93b2235a45e07a7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579946360503983983, guid: ab346c4fc224cca4e93b2235a45e07a7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 1867799953791617760, guid: ab346c4fc224cca4e93b2235a45e07a7,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -330,6 +340,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2405266074162543556, guid: ab346c4fc224cca4e93b2235a45e07a7,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2405266074162543556, guid: ab346c4fc224cca4e93b2235a45e07a7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8588e093811e04e459a14e001df50a1d, type: 2}
+    - target: {fileID: 7401394214872263963, guid: ab346c4fc224cca4e93b2235a45e07a7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8491851066186321690, guid: ab346c4fc224cca4e93b2235a45e07a7,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8491851066186321690, guid: ab346c4fc224cca4e93b2235a45e07a7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8588e093811e04e459a14e001df50a1d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
