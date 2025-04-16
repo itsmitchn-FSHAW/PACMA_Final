@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4751113801527671548}
   m_Layer: 0
   m_Name: CT_Window
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,7 +94,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d34bb9ccc15391149b7c139ac9bba73e, type: 2}
+      objectReference: {fileID: 2100000, guid: 76dad0ed04a520246ae212eaf5e6b97b, type: 2}
     - target: {fileID: 919132149155446097, guid: 6fdce93312bbd0248ac8dbb99e52997a,
         type: 3}
       propertyPath: m_Name
