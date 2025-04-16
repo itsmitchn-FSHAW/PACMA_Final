@@ -16066,7 +16066,7 @@ Transform:
   m_GameObject: {fileID: 635204470}
   serializedVersion: 2
   m_LocalRotation: {x: 0.4407468, y: 0.0000000017576618, z: 0.000000019445315, w: 0.8976315}
-  m_LocalPosition: {x: -3.6, y: 8.672, z: -10.192}
+  m_LocalPosition: {x: -35.05, y: 9.691999, z: 4.807999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -18959,7 +18959,7 @@ Transform:
   m_GameObject: {fileID: 779982172}
   serializedVersion: 2
   m_LocalRotation: {x: 0.44074687, y: 0.000000014897087, z: -0.0000000073146325, w: 0.89763147}
-  m_LocalPosition: {x: -3.6, y: 8.672, z: -10.192}
+  m_LocalPosition: {x: -35.05, y: 9.691999, z: 4.807999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -41314,29 +41314,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 130438868675039212, guid: 9a7c6c8f85ed6e94d80da2b389e6e84b,
         type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"FPSCam","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"playerSpeed","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerHealth","value":{"$content":100,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerHealthUI","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"attackPoint","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"meleeDamage","value":{"$content":25,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"bulletPrefab","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"maxHealth","value":{"$content":100,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"spawnpoint","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"hasNecklace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Box","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Box_Mesh","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Neck","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 130438868675039212, guid: 9a7c6c8f85ed6e94d80da2b389e6e84b,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 130438868675039212, guid: 9a7c6c8f85ed6e94d80da2b389e6e84b,
-        type: 3}
       propertyPath: _data._objectReferences.Array.data[1]
       value: 
       objectReference: {fileID: 540400567}
@@ -41347,35 +41324,23 @@ PrefabInstance:
       objectReference: {fileID: 1869481630}
     - target: {fileID: 130438868675039212, guid: 9a7c6c8f85ed6e94d80da2b389e6e84b,
         type: 3}
-      propertyPath: _data._objectReferences.Array.data[5]
-      value: 
-      objectReference: {fileID: 1641514763769029900, guid: e921fe85c37f10245a17f9e0314b7c1b,
-        type: 3}
-    - target: {fileID: 130438868675039212, guid: 9a7c6c8f85ed6e94d80da2b389e6e84b,
-        type: 3}
       propertyPath: _data._objectReferences.Array.data[6]
       value: 
       objectReference: {fileID: 1811764546}
-    - target: {fileID: 130438868675039212, guid: 9a7c6c8f85ed6e94d80da2b389e6e84b,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.data[7]
-      value: 
-      objectReference: {fileID: 7939104983035301281, guid: fe59bdae2a95c1c4faa8467aa99ac583,
-        type: 3}
     - target: {fileID: 1692750215835356366, guid: 9a7c6c8f85ed6e94d80da2b389e6e84b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.6
+      value: -35.05
       objectReference: {fileID: 0}
     - target: {fileID: 1692750215835356366, guid: 9a7c6c8f85ed6e94d80da2b389e6e84b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.142
+      value: 1.162
       objectReference: {fileID: 0}
     - target: {fileID: 1692750215835356366, guid: 9a7c6c8f85ed6e94d80da2b389e6e84b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.6
+      value: 11.4
       objectReference: {fileID: 0}
     - target: {fileID: 1692750215835356366, guid: 9a7c6c8f85ed6e94d80da2b389e6e84b,
         type: 3}
@@ -43348,7 +43313,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 2970c6f333095c8449f061e942ec493c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -43.52429
+      value: -79.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2970c6f333095c8449f061e942ec493c,
         type: 3}
@@ -43358,7 +43323,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 2970c6f333095c8449f061e942ec493c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 16.228
+      value: 0.18
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2970c6f333095c8449f061e942ec493c,
         type: 3}

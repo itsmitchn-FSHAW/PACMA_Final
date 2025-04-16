@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7245901538849087918}
   - component: {fileID: 4194919379494022926}
   - component: {fileID: -6737544541803998770}
+  - component: {fileID: -8480832501706175974}
   m_Layer: 0
   m_Name: necklace
   m_TagString: Necklace
@@ -131,6 +132,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55edd124aa014fc2a4d8ef1794dcd775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-8480832501706175974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7939104983035301281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9af27143956b4fc69a21afea18eb1a30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &9169485191316103999
