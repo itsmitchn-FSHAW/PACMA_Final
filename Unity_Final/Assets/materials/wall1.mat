@@ -155,6 +155,6 @@ Material:
     - _Color: {r: 0.8155601, g: 1, b: 0.79716986, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _cameraPosition: {r: -10.694952, g: 9.540001, b: -7.0170226, a: 0}
+    - _cameraPosition: {r: -7.217617, g: 9.53999, b: -29.33476, a: 0}
     - _tint: {r: 0.9716981, g: 0.9111453, b: 0.5087665, a: 1}
   m_BuildTextureStacks: []
