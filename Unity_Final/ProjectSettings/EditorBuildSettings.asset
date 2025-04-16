@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Philip/loadingScreenPhilip.unity
     guid: 924ea3ae3956e2d4889134717f76141a
+  - enabled: 1
+    path: Assets/Scenes/FinalScene.unity
+    guid: db80af3c63b70b94281473a7c790722d
   m_configObjects: {}
