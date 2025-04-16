@@ -9763,7 +9763,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &407648311
 RectTransform:
   m_ObjectHideFlags: 0
@@ -30208,6 +30208,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Throwables
       objectReference: {fileID: 0}
+    - target: {fileID: 7090074791307180124, guid: 518919e3056d2bd4e95ba1e91dd7e49d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35911,7 +35916,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1445667981
 RectTransform:
   m_ObjectHideFlags: 0
@@ -44315,6 +44320,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: enemyManager
       objectReference: {fileID: 0}
+    - target: {fileID: 1697947256918136001, guid: a04f747e619b67d41b61ca67c47b058c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3714116387203005908, guid: a04f747e619b67d41b61ca67c47b058c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -45837,6 +45847,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: enemyManager (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1697947256918136001, guid: a04f747e619b67d41b61ca67c47b058c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3714116387203005908, guid: a04f747e619b67d41b61ca67c47b058c,
         type: 3}
