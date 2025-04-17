@@ -172,6 +172,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door Right 2x6
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ecb934ce826d78e47b78fcffa4b9246e,
+        type: 3}
+      propertyPath: m_TagString
+      value: walls
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 4458581015105251892}
   - component: {fileID: 8803673704353390187}
   m_Layer: 6
-  m_Name: Enemy
+  m_Name: Enemy_MN
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -261,10 +261,8 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"damage","value":{"$content":30,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"mesh","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences:
-    - {fileID: 6714648118414678462}
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!54 &7547127860222430271
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -593,7 +591,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 74a008cd4aa33684d9dc1598e1da5579,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -672,7 +670,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8284d7955ebebf14ba0ba7fd2029e600,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1201850135103211543, guid: 8284d7955ebebf14ba0ba7fd2029e600,
         type: 3}
@@ -692,12 +690,6 @@ PrefabInstance:
 --- !u!4 &5066841501535979915 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8284d7955ebebf14ba0ba7fd2029e600,
-    type: 3}
-  m_PrefabInstance: {fileID: 4745581234766163552}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &6714648118414678462 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -7136929846119811106, guid: 8284d7955ebebf14ba0ba7fd2029e600,
     type: 3}
   m_PrefabInstance: {fileID: 4745581234766163552}
   m_PrefabAsset: {fileID: 0}
