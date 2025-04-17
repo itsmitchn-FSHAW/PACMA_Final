@@ -10450,13 +10450,13 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._objectReferences.Array.data[1]
       value: 
-      objectReference: {fileID: 8555310512330118220, guid: 59c770026027d004cae616d0653042b0,
+      objectReference: {fileID: 8555310512330118220, guid: 049a029aa86cfd442acb2a19b5b593c9,
         type: 3}
     - target: {fileID: 2027797377215312865, guid: a04f747e619b67d41b61ca67c47b058c,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[2]
       value: 
-      objectReference: {fileID: 8555310512330118220, guid: 59c770026027d004cae616d0653042b0,
+      objectReference: {fileID: 8555310512330118220, guid: 8d6911ba0a71e924e859784f16017024,
         type: 3}
     - target: {fileID: 3714116387203005908, guid: a04f747e619b67d41b61ca67c47b058c,
         type: 3}
