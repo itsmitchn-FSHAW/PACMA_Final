@@ -18,6 +18,7 @@ TagManager:
   - static
   - UI
   - walls
+  - UISpecial
   layers:
   - Default
   - TransparentFX
